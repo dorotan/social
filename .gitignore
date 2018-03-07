@@ -102,3 +102,4 @@ ENV/
 *.sqlite3
 *.sqlite3
 bookmarks/db.sqlite3
+*.sqlite3
