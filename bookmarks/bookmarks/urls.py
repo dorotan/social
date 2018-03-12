@@ -16,6 +16,10 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+admin.site.site_header = 'Social admin page'
+admin.site.site_title = 'Social portal'
+admin.site.index_title = 'Welcome to social portal'
+
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^account/', include('account.urls')),
