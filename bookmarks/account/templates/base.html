@@ -13,10 +13,13 @@
 						<a href='{% url "dashboard" %}'>Strona główna</a>
 					</li>
 					<li {% if section == 'images' %}class='selected'{% endif %}>
-						<a href='#'>Zwierzak</a>
+						<a href='#'>Galeria</a>
 					</li>
 					<li {% if section == 'people' %}class='selected'{% endif %}>
-						<a href='#'>Opiekun</a>
+						<a href='#'>Przyjaciele</a>
+					</li>
+					<li {% if section == 'contact' %}class='selected'{% endif %}>
+						<a href='#'>Kontakt</a>
 					</li>
 			</ul>
 		{% endif %}
