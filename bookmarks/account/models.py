@@ -9,4 +9,4 @@ class Profile(models.Model):
 
 
     def __str__(self):
-        return 'Profil użytkownika {}.'.format(self.user.username)
+        return "User profile {}.".format(self.user.username)
